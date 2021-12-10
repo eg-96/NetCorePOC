@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreVueJsPOC.API", "NetCoreVueJsPOC.API\NetCoreVueJsPOC.API.csproj", "{56F6F6E2-F29C-4D0E-819E-6FCFA9F3CD43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreVueJsPOC.Services", "NetCoreVueJsPOC.Services\NetCoreVueJsPOC.Services.csproj", "{C911C775-F420-44EA-9A73-6323211988DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreVueJsPOC.DAL", "NetCoreVueJsPOC.DAL\NetCoreVueJsPOC.DAL.csproj", "{09DA9854-73A4-4F55-8A66-28D03C24DB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreVueJsPOC.Entities", "NetCoreVueJsPOC.Entities\NetCoreVueJsPOC.Entities.csproj", "{37D5BEFE-391F-4682-AEF8-B9AA8157B94E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoreVueJsPOC.Utilities", "NetCoreVueJsPOC.Utilities\NetCoreVueJsPOC.Utilities.csproj", "{80F4B362-BD1B-4B54-BB61-6E813CDEC492}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56F6F6E2-F29C-4D0E-819E-6FCFA9F3CD43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F6F6E2-F29C-4D0E-819E-6FCFA9F3CD43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F6F6E2-F29C-4D0E-819E-6FCFA9F3CD43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F6F6E2-F29C-4D0E-819E-6FCFA9F3CD43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C911C775-F420-44EA-9A73-6323211988DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C911C775-F420-44EA-9A73-6323211988DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C911C775-F420-44EA-9A73-6323211988DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C911C775-F420-44EA-9A73-6323211988DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DA9854-73A4-4F55-8A66-28D03C24DB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DA9854-73A4-4F55-8A66-28D03C24DB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DA9854-73A4-4F55-8A66-28D03C24DB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DA9854-73A4-4F55-8A66-28D03C24DB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D5BEFE-391F-4682-AEF8-B9AA8157B94E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D5BEFE-391F-4682-AEF8-B9AA8157B94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D5BEFE-391F-4682-AEF8-B9AA8157B94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D5BEFE-391F-4682-AEF8-B9AA8157B94E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F4B362-BD1B-4B54-BB61-6E813CDEC492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F4B362-BD1B-4B54-BB61-6E813CDEC492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F4B362-BD1B-4B54-BB61-6E813CDEC492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F4B362-BD1B-4B54-BB61-6E813CDEC492}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {394A3B7B-9A68-4BB3-B3CC-3A4238DF9DE8}
+	EndGlobalSection
+EndGlobal
