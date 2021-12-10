@@ -6,16 +6,19 @@
 
   <ItemGroup>
     <None Remove="Contracts\" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
+    <None Remove="Internal\" />
     <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Contracts\" />
+    <Folder Include="Internal\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NetCoreVueJsPOC.DAL\NetCoreVueJsPOC.DAL.csproj" />
-    <ProjectReference Include="..\Framework.Services\Framework.Services.csproj" />
-  </ItemGroup>
-  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Framework.Utilities\Framework.Utilities.csproj" />
   </ItemGroup>
 </Project>
