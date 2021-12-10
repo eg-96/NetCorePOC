@@ -6,9 +6,11 @@
 
   <ItemGroup>
     <None Remove="DataModel\" />
+    <None Remove="DataTransferObjectModel\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataModel\" />
+    <Folder Include="DataTransferObjectModel\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NetCoreVueJsPOC.Utilities\NetCoreVueJsPOC.Utilities.csproj" />
