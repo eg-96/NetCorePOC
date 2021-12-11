@@ -53,3 +53,33 @@
 2021-12-10 11:55:57.1881 Info Adding target FileTarget(Name=allfile)
 2021-12-10 11:55:57.2334 Info Adding target FileTarget(Name=ownFile-web)
 2021-12-10 11:55:57.5346 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=/Users/enmanuelgarcia/Projects/NetCoreVueJsPOC/NetCoreVueJsPOC.API/bin/Debug/net5.0/nlog.config
+2021-12-10 20:31:19.7139 Info Message Template Auto Format enabled
+2021-12-10 20:31:19.8088 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-10 20:31:19.9170 Info Adding target FileTarget(Name=allfile)
+2021-12-10 20:31:19.9351 Info Adding target FileTarget(Name=ownFile-web)
+2021-12-10 20:31:20.1008 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=/Users/enmanuelgarcia/Projects/NetCoreVueJsPOC/NetCoreVueJsPOC.API/bin/Debug/net5.0/nlog.config
+2021-12-10 21:44:37.3392 Info Message Template Auto Format enabled
+2021-12-10 21:44:37.5130 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-10 21:44:37.7001 Info Adding target FileTarget(Name=allfile)
+2021-12-10 21:44:37.7176 Info Adding target FileTarget(Name=ownFile-web)
+2021-12-10 21:44:37.9327 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=/Users/enmanuelgarcia/Projects/NetCoreVueJsPOC/NetCoreVueJsPOC.API/bin/Debug/net5.0/nlog.config
+2021-12-10 21:49:55.7242 Info Message Template Auto Format enabled
+2021-12-10 21:49:55.7878 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-10 21:49:55.8680 Info Adding target FileTarget(Name=allfile)
+2021-12-10 21:49:55.8840 Info Adding target FileTarget(Name=ownFile-web)
+2021-12-10 21:49:56.0224 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=/Users/enmanuelgarcia/Projects/NetCoreVueJsPOC/NetCoreVueJsPOC.API/bin/Debug/net5.0/nlog.config
+2021-12-10 21:54:14.7064 Info Message Template Auto Format enabled
+2021-12-10 21:54:14.8449 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-10 21:54:15.0769 Info Adding target FileTarget(Name=allfile)
+2021-12-10 21:54:15.0954 Info Adding target FileTarget(Name=ownFile-web)
+2021-12-10 21:54:15.2669 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=/Users/enmanuelgarcia/Projects/NetCoreVueJsPOC/NetCoreVueJsPOC.API/bin/Debug/net5.0/nlog.config
+2021-12-10 21:59:07.9798 Info Message Template Auto Format enabled
+2021-12-10 21:59:08.2334 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-10 21:59:08.3497 Info Adding target FileTarget(Name=allfile)
+2021-12-10 21:59:08.3714 Info Adding target FileTarget(Name=ownFile-web)
+2021-12-10 21:59:08.5453 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=/Users/enmanuelgarcia/Projects/NetCoreVueJsPOC/NetCoreVueJsPOC.API/bin/Debug/net5.0/nlog.config
+2021-12-10 23:39:41.0082 Info Message Template Auto Format enabled
+2021-12-10 23:39:41.2353 Info Loading assembly: NLog.Web.AspNetCore
+2021-12-10 23:39:41.3938 Info Adding target FileTarget(Name=allfile)
+2021-12-10 23:39:41.4176 Info Adding target FileTarget(Name=ownFile-web)
+2021-12-10 23:39:41.6196 Info Validating config: TargetNames=allfile, ownFile-web, ConfigItems=45, FilePath=/Users/enmanuelgarcia/Projects/NetCoreVueJsPOC/NetCoreVueJsPOC.API/bin/Debug/net5.0/nlog.config
