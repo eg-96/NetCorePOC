@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 using NetCoreVueJsPOC.DAL;
 using NetCoreVueJsPOC.Services;
 using NetCoreVueJsPOC.Services.Contracts;
@@ -26,6 +27,12 @@ namespace NetCoreVueJsPOC.API
             services.AddDbContext<NetCoreVueJsPOCContext>();
             services.MapAllServicesByConvention(typeof(WeatherForecastService));
             services.AddAutoMapper(typeof(DynamicMappingDtos));
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
+
             services.AddControllers();
 
             services.AddCors(options =>
@@ -57,6 +64,16 @@ namespace NetCoreVueJsPOC.API
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+
+            // Enable middleware to serve generated Swagger as a JSON endpoint.
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
+            // specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
         }
     }

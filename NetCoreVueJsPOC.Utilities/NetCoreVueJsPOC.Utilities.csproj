@@ -13,7 +13,7 @@
     <Folder Include="Types\" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NLog" Version="4.7.13" />
-    <PackageReference Include="NLog.Web.AspNetCore" Version="4.14.0" />
+    <PackageReference Include="NLog" Version="5.0.4" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="5.1.4" />
   </ItemGroup>
 </Project>
