@@ -13,10 +13,10 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "mdb-vue-ui-kit": "^1.7.0",
-    "mdbvue": "^6.7.3",
-    "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "mdb-vue-ui-kit": "^1.14.0",
+    "mdbvue": "^6.7.4",
+    "vue": "^2.7.14",
+    "vue-router": "^3.0.7"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
